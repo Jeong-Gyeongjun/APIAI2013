@@ -1,0 +1,98 @@
+﻿빌드 시작: 2017-04-12 오후 1:33:10
+     1>2 노드의 "C:\Users\jkj\Documents\GitHub\APIAI2013\APIAI2013\APIAI2013.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\jkj\Documents\GitHub\APIAI2013\/include /IC:\Users\jkj\Documents\GitHub\APIAI2013\/APIAI2013 /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt apiai\AI.cpp apiai\Credentials.cpp apiai\exceptions\Exception.cpp apiai\exceptions\InvalidArgumentException.cpp apiai\exceptions\JSONException.cpp apiai\exceptions\ResponseErrorException.cpp apiai\http\RequestConnection.cpp apiai\http\RequestConnectionImpl.cpp apiai\io\Stream.cpp apiai\io\StreamReader.cpp apiai\io\StreamWriter.cpp apiai\query\cJSONUtils.cpp apiai\query\ContextParametersSerializer.cpp apiai\query\QueryRequest.cpp apiai\query\request\Entity.cpp apiai\query\request\Parameters.cpp apiai\query\request\QueryText.cpp apiai\query\request\QueryTextSerialize.cpp apiai\query\request\RequestContext.cpp apiai\query\response\Context.cpp apiai\query\response\Element.cpp apiai\query\response\Fulfillment.cpp apiai\query\response\Metadata.cpp apiai\query\response\Response.cpp apiai\query\response\Result.cpp apiai\query\TextQueryRequest.cpp apiai\query\VoiceRequest.cpp apiai\Service.cpp apiai\Types.cpp apiai\vad\VoiceActivityDetector.cpp indent_stream\indent_stream.cpp main.cpp
+         AI.cpp
+         Credentials.cpp
+         Exception.cpp
+         InvalidArgumentException.cpp
+         JSONException.cpp
+         ResponseErrorException.cpp
+         RequestConnection.cpp
+         RequestConnectionImpl.cpp
+     1>apiai\http\RequestConnectionImpl.cpp(62): warning C4267: 'return' : 'size_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         Stream.cpp
+         StreamReader.cpp
+         StreamWriter.cpp
+         cJSONUtils.cpp
+     1>C:\Users\jkj\Documents\GitHub\APIAI2013\APIAI2013\cJSON/cJSON.h(44): warning C4099: 'cJSON' : 처음에는 'class'을(를) 사용하여 형식 이름을 표시했는데 이제는 'struct'을(를) 사용하여 표시합니다.
+                 c:\users\jkj\documents\github\apiai2013\apiai2013\apiai\query\cJSONUtils.h(6) : 'cJSON' 선언을 참조하십시오.
+         ContextParametersSerializer.cpp
+     1>C:\Users\jkj\Documents\GitHub\APIAI2013\APIAI2013\cJSON/cJSON.h(44): warning C4099: 'cJSON' : 처음에는 'class'을(를) 사용하여 형식 이름을 표시했는데 이제는 'struct'을(를) 사용하여 표시합니다.
+                 c:\users\jkj\documents\github\apiai2013\apiai2013\apiai\query\ContextParametersSerializer.h(9) : 'cJSON' 선언을 참조하십시오.
+         QueryRequest.cpp
+     1>C:\Users\jkj\Documents\GitHub\APIAI2013\APIAI2013\cJSON/cJSON.h(44): warning C4099: 'cJSON' : 처음에는 'class'을(를) 사용하여 형식 이름을 표시했는데 이제는 'struct'을(를) 사용하여 표시합니다.
+                 c:\users\jkj\documents\github\apiai2013\apiai2013\apiai\query\ContextParametersSerializer.h(9) : 'cJSON' 선언을 참조하십시오.
+     1>c:\users\jkj\documents\github\apiai2013\apiai2013\apiai\query\cJSONUtils.h(6): warning C4099: 'cJSON' : 처음에는 'struct'을(를) 사용하여 형식 이름을 표시했는데 이제는 'class'을(를) 사용하여 표시합니다.
+                 C:\Users\jkj\Documents\GitHub\APIAI2013\APIAI2013\cJSON/cJSON.h(44) : 'cJSON' 선언을 참조하십시오.
+         Entity.cpp
+         Parameters.cpp
+         QueryText.cpp
+         QueryTextSerialize.cpp
+         RequestContext.cpp
+         Context.cpp
+         컴파일하고 있습니다...
+         Element.cpp
+         Fulfillment.cpp
+         Metadata.cpp
+         Response.cpp
+         Result.cpp
+         TextQueryRequest.cpp
+         VoiceRequest.cpp
+     1>apiai\query\VoiceRequest.cpp(38): warning C4244: '인수' : 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         Service.cpp
+         Types.cpp
+         VoiceActivityDetector.cpp
+         indent_stream.cpp
+         main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\jkj\Documents\GitHub\APIAI2013\/include /IC:\Users\jkj\Documents\GitHub\APIAI2013\/APIAI2013 /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TC /errorReport:prompt apiai\vad\VADContext.c cJSON\cJSON.c
+         VADContext.c
+     1>apiai\vad\VADContext.c(205): warning C4305: '함수' : 'double'에서 'float'(으)로 잘립니다.
+         cJSON.c
+     1>cJSON\cJSON.c(144): warning C4267: 'return' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>cJSON\cJSON.c(260): warning C4244: '=' : '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>cJSON\cJSON.c(482): warning C4267: '+=' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>cJSON\cJSON.c(625): warning C4267: '+=' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jkj\Documents\GitHub\APIAI2013\x64\Release\APIAI2013.exe" /NOLOGO /LIBPATH:C:\Users\jkj\Documents\GitHub\APIAI2013\/lib libcurl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\jkj\Documents\GitHub\APIAI2013\x64\Release\APIAI2013.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\jkj\Documents\GitHub\APIAI2013\x64\Release\APIAI2013.lib" /MACHINE:X64 x64\Release\AI.obj
+         x64\Release\Credentials.obj
+         x64\Release\Exception.obj
+         x64\Release\InvalidArgumentException.obj
+         x64\Release\JSONException.obj
+         x64\Release\ResponseErrorException.obj
+         x64\Release\RequestConnection.obj
+         x64\Release\RequestConnectionImpl.obj
+         x64\Release\Stream.obj
+         x64\Release\StreamReader.obj
+         x64\Release\StreamWriter.obj
+         x64\Release\cJSONUtils.obj
+         x64\Release\ContextParametersSerializer.obj
+         x64\Release\QueryRequest.obj
+         x64\Release\Entity.obj
+         x64\Release\Parameters.obj
+         x64\Release\QueryText.obj
+         x64\Release\QueryTextSerialize.obj
+         x64\Release\RequestContext.obj
+         x64\Release\Context.obj
+         x64\Release\Element.obj
+         x64\Release\Fulfillment.obj
+         x64\Release\Metadata.obj
+         x64\Release\Response.obj
+         x64\Release\Result.obj
+         x64\Release\TextQueryRequest.obj
+         x64\Release\VoiceRequest.obj
+         x64\Release\Service.obj
+         x64\Release\Types.obj
+         x64\Release\VADContext.obj
+         x64\Release\VoiceActivityDetector.obj
+         x64\Release\cJSON.obj
+         x64\Release\indent_stream.obj
+         x64\Release\main.obj
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+         APIAI2013.vcxproj -> C:\Users\jkj\Documents\GitHub\APIAI2013\x64\Release\APIAI2013.exe
+     1>"C:\Users\jkj\Documents\GitHub\APIAI2013\APIAI2013\APIAI2013.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:57.40
