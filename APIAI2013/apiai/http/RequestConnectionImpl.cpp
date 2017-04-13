@@ -149,7 +149,7 @@ string RequestConnection::RequestConnectionImpl::performConnection()
         cout << "download_size" << ": " << download_size << endl;
     }
     if (CURLE_OK == perform_result) {
-		cout << "ASDF: " << UTF8ToANSI(response) << endl;
+		//cout << "ASDF: " << UTF8ToANSI(response) << endl;
 		return UTF8ToANSI(response);
     } else if (
                CURLE_SEND_ERROR == perform_result &&

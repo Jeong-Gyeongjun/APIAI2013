@@ -86,7 +86,7 @@ Response TextQueryRequest::perform() {
 
     auto json = cJSON_Print(root);
 
-	cout << json << endl;
+	//cout << json << endl;
 
 	impl->setBody(json);
 
